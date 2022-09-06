@@ -1,0 +1,87 @@
+.plans{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    gap: 4rem;
+}
+.plans-head{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+}
+.plans-head>span{
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.plan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.plan>div:nth-child(1){
+    width: 20rem;
+    height: 30rem;
+    background-color: #3c3f45;
+    margin: 3px;
+    border: 1px solid whitesmoke;;
+}
+.plan>div:nth-child(3){
+    width: 20rem;
+    height: 30rem;
+    background-color: #3c3f45;
+    margin: 3px;
+    border: 1px solid whitesmoke;
+}
+.plan>div:nth-child(2){
+    background-image: url(../../img/background.jpeg);
+    height: 35rem;
+    width: 20rem;
+    margin: 3px;
+    border: 1px solid whitesmoke;;
+    background-color: transparent;
+    background-attachment: inherit;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.plan>div>i{
+    color: #727783;
+    font-size: 40px;
+    margin: 5px;
+}
+.plan>div>span{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    line-height: 3.5rem;
+    margin-left: 3rem;
+}
+.plan>div>a{
+    display: flex;
+    flex-direction: column;
+    line-height: 3.5rem;
+    margin-left: 3rem;
+}
+.plan>div>span:nth-child(2){
+    font-size: 25px;
+}
+.plan>div>span:nth-child(3){
+    font-size: 30px;
+    font-weight: bold;
+}
+/* .plan>div>span:nth-child(7){
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+} */
+.plan>div>button{
+   width: 80%;
+   justify-content: center;
+   margin-left: 2rem;
+   height: 3rem;
+   cursor: pointer;
+   text-transform: uppercase;
+}
+.premium>button{
+    color: orange;
+}

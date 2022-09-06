@@ -1,0 +1,83 @@
+.testimonials{
+    margin-top: 5rem;
+    display: flex;
+    flex: 1 1;
+}
+
+.right-testi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    gap: 2rem;
+    width: 50%;
+    margin-bottom: 5rem;
+}
+.right-testi>span:nth-child(1){
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.right-testi>span:nth-child(2){
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.right-testi>span:nth-child(3){
+    color: white;
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+.right-testi>span:nth-child(4){
+    color: black;
+    text-transform: uppercase;
+}
+.left-testi{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+   
+}
+.left-t{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    flex-direction: column;
+}
+.left-t>img{
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    margin: 3px;
+}
+.left-t>img:nth-child(1){
+    z-index: 2;
+}
+img.back-img{
+    position: absolute;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.left-t>div{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid red;
+    position: absolute;
+    padding: 1.5rem;
+}
+.btns>button{
+    margin: 0.5rem;
+    background: transparent;
+    border: none;
+}
+.btns>button>i{
+    font-size: 40px;
+    color: black;
+}
+.btns>button>i:hover{
+   color: white;
+   
+}
